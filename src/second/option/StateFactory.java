@@ -21,7 +21,8 @@ public class StateFactory {
     public static Map<StateEnum, StateDefault> createStates(ProductType productType) {
         if (productType.equals(ProductType.WIENER_LINIEN)) {
             if (statesWL.isEmpty()) {
-                StateDefault stateActive = new StateActiveWL();
+                StateActive stateActive_sub = new StateActive();
+                StateDefault stateActive = new StateActiveWL(stateActive_sub);
                 StateDefault stateSuspended = new StateSuspended();
                 StateDefault stateUnconfirmed = new StateUnconfirmed();
                 StateDefault stateLocked = new StateLocked();
