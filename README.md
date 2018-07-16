@@ -1,7 +1,7 @@
 **State Machine template**
 
 Ich habe mal ein grundlegendes Konzept bzw. besser gesagt zwei Konzepte ausgearbeitet wie die State Machine aussehen könnte. Habe mich dabei an die *state pattern* orientiert.
-Grundlegende Kenntnisse über das *state pattern* sind vorteilhaft. ;-)
+Grundlegende Kenntnisse über das *state pattern* sind vorteilhaft. ;-) 
 
 
 ---
